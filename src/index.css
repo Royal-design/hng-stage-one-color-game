@@ -76,6 +76,7 @@ body {
   cursor: pointer;
 }
 .btn-new {
+  font-size: 12px;
   border: none;
   font-family: "Press Start 2P", serif;
   padding: 5px;
