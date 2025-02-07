@@ -99,7 +99,7 @@ function App() {
         data-testid="colorBox"
         style={{ backgroundColor: targetColor }}
       ></div>
-      <p data-testid="gameInstructions">
+      <p className="instruction" data-testid="gameInstructions">
         {!showToast && "Guess the current color"}
       </p>
       <div className="button-box">

@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 body {
+  color: white;
   font-family: "Press Start 2P", serif;
   font-weight: 100;
   font-style: normal;
@@ -14,11 +15,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f1f2f2;
+  background: rgb(5, 22, 21);
+  background: linear-gradient(
+    90deg,
+    rgba(5, 22, 21, 1) 0%,
+    rgba(1, 14, 15, 1) 100%
+  );
 }
 @media (max-width: 500px) {
-  .container {
-    align-items: normal;
+  body {
+    align-items: start;
   }
 }
 .container {
@@ -26,15 +32,18 @@ body {
   flex-direction: column;
   align-items: center;
   width: 30rem;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: inset 0px 10px 10px rgba(84, 84, 84, 0.24);
+  border: 1px dotted white;
   border-radius: 1rem;
   text-align: center;
   padding: 20px;
 }
 @media (max-width: 500px) {
   .container {
+    align-items: start;
     margin-top: 2rem;
-    height: 100vh;
+    height: auto;
     width: 100%;
     box-shadow: none;
   }
@@ -53,12 +62,14 @@ body {
 }
 .target-color-box {
   border-radius: 1rem;
-  width: 150px;
-  height: 150px;
+  width: 80%;
+  height: 9rem;
   margin: 20px auto;
   border: 3px solid black;
 }
-
+.instruction {
+  font-size: 12px;
+}
 .button-box {
   margin-top: 10px;
   display: grid;
