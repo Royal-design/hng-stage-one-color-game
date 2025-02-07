@@ -15,7 +15,6 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #f1f2f2;
-  position: relative;
 }
 @media (max-width: 500px) {
   .container {
