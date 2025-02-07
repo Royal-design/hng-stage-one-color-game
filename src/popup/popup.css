@@ -43,7 +43,13 @@
   font-family: "Press Start 2P", serif;
   font-size: 10px;
   line-height: 1.5rem;
-  background: white;
+  background: rgb(5, 22, 21);
+  background: linear-gradient(
+    90deg,
+    rgba(5, 22, 21, 1) 0%,
+    rgba(1, 14, 15, 1) 100%
+  );
+  border: 1px dotted white;
   padding: 20px;
   border-radius: 8px;
   width: 300px;
