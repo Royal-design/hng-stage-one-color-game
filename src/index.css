@@ -25,6 +25,7 @@ body {
 @media (max-width: 500px) {
   body {
     align-items: start;
+    padding: 30px;
   }
 }
 .container {
@@ -41,7 +42,7 @@ body {
 }
 @media (max-width: 500px) {
   .container {
-    align-items: start;
+    align-items: center;
     margin-top: 2rem;
     height: auto;
     width: 100%;
